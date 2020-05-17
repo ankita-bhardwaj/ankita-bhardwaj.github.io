@@ -1,0 +1,118 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Ankita Bhardwaj portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<a href="resume.pdf" class="logo">Download Resume</a>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li><a href="index.html">Internships</a></li>
+							<li class="active"><a href="generic.html">Hackathons</a></li>
+							<li><a href="elements.html">ML/DL projects</a></li>
+							<li><a href="elements2.html">Data Analytics</a></li>
+						</ul>
+						<ul class="icons">
+							<li><a href="https://github.com/ankita-bhardwaj" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+							<li><a href="https://www.linkedin.com/in/ankitabhardwaj38/" class="icon brands fa-linkedin"><span class="label">linkedin</span></a></li>
+							
+						</ul>
+					</nav>
+					
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Post -->
+							<section >
+								<header class="major">
+									<h1>Capital One Hackathon</br>-Winner-</h1>
+									<p><b>Problem statement:</b> Measuring Gender Equality and Work-Life Opportunities at the workplace</p>
+									<p><b>Tools Used: Python, nltk, Machine Learning, Web scraping, Tableau</b></p>
+								</header>
+								<div class="image main"><img src="images/gender.jpg" alt="" /></div>
+								<p><h2 align="center">Motivation: </h2>According to a Mckinsey Report, if a company becomes more diverse, it is 21% more likely to see above average profits and according to a report by IBM, if a company fully focuses on gender diversity, it sees higher profits and revenues by ~10% points.
+									Looking at these numbers, I felt that if I could help company figure out where they stand in terms of gender equality and work-life opportunities with respect to the other companies and eventually improve, they can increase their profits and revenues.									.</p>
+								</br>
+								<h2 align="center">My approach:</h2>
+								<p><b>1. Research</b> After understanding the problem statement and finding my motivation, I started researching about what contributes to the gender equality and work life opportunities at a workplace and if data for same is available. After researching several websites, I decided to work with 13 metrics such as % of women executives, work from home option available, pay transparency, maternity leave etc. </p>
+								<p><b>2. One more metric:</b> After further thinking, I realized that the 13 metrics I have decided to work with, only tells what an employer is offering
+								 and not what the employees feel about what is being offered to them. Hence, I included the 14th metric which is the sentiment analysis of the employee reviews. I webscraped the data and conducted sentiment analysis using nltk.</p>
+								 
+								 <div align="center"><img src="images/metrics.JPG" alt="" /></div></br>
+								 <p><b>Score Calculation: </b>I gathered the data for all 14 metrics for around 100 companies and created a form for Capital One to enter its data.
+								Then, I calculated the scores for individual companies by assigning non-equal weights to each metric and taking the weighted average of them.</p>
+								
+								 <p><b>Comparison and Recommender system: </b> Now I had score for all the companies and data of 14 metrics for each company. I used Tableau for comparison. Next, I built a recommender system based on the financial data of the companies (not limited to revenue, profit and fortune 500 rank) because I felt that a company would want a direct comparison with its competitors. Hence, I used KNN algorithm to find the financially nearest company of Capital One. </p>
+								 <p><b>Dashboard creation: </b>As HR department of a company would be using this tool, I wanted to use a tool that could easily be understood and worked with in case of any changes. Hence, I decided to go ahead with Tableau and assembled all my work as a dashboard. Please find below a demo of my dashboard: </p>
+								 <video align= "center" width="1000" height="400" controls>
+									<source src="demo.mp4" type="video/mp4">
+		
+								  Your browser does not support the video tag.
+								  </video>
+								</br>
+							</br>
+							<header class="major">
+								<p><b>Where can this be used? </b>This tool can be used by companies to see what others are doing better and work on that. It can also be used by a company to compare its branches.</p>
+								<p><b>*There were around 200 people registered for the hackathon and I took part as an individual.</b></br><b>***Comparisons may not be very accurate in the demo as webscaping for demo purpose was done only for limited reviews.</b></p></br>	
+
+					
+					<h2 align="center"><u>Another Data Science Hackathon that I Won: Nasdaq</u></h2>
+					<p align="center"><b align="center">Tools Used: Web Scraping, Python, Time Series, NLP </b></p>
+				</header>
+
+					
+					
+					</section>
+
+								
+
+					</div>
+
+				<footer id="footer">
+			
+
+							<section>
+								<p>Email : ab4685@columbia.edu</p>
+							</section>
+							<section>
+								<ul class="icons">
+									<li><a href="https://github.com/ankita-bhardwaj" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+									<li><a href="https://www.linkedin.com/in/ankitabhardwaj38/" class="icon brands fa-linkedin"><span class="label">linkedin</span></a></li>
+									
+								</ul>
+							</section>
+		
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
