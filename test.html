@@ -1,7 +1,20 @@
 <html>
-<head></head>
+<head>
+      <meta name="viewport" content="width-device-width, initial-scale=1">
+    <style>
+        df-messenger {
+            --df-messenger-bot-message: #878fac;
+            --df-messenger-button-titlebar-color: #df9b56;
+            --df-messenger-chat-background-color: #fafafa;
+            --df-messenger-font-color: white;
+            --df-messenger-send-icon: #878fac;
+            --df-messenger-user-message: #479b3d;
+        }
+    </style>
+  
+  </head>
 <body>
-  <div height=100px>
+
 <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
 <df-messenger
   intent="WELCOME"
@@ -9,6 +22,6 @@
   agent-id="ff3b953f-1cff-4cf3-ad63-48cb0dc04b1a"
   language-code="en"
 ></df-messenger>
-  </div>
+
 </body>
 </html>
